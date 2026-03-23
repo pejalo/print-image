@@ -13,7 +13,7 @@ generateBtn.addEventListener('click', () => {
     const format = paperSizeSelect.value;
 
     if (!file) {
-        alert("Please select an image first!");
+        alert("Please select an image first.");
         return;
     }
 
